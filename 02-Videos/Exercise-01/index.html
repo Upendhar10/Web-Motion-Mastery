@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise #1 || Product feature with video</title>
+
+    <!-- Reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="feature">
+      <div id="content">
+        <header>
+          <h2>Lightning-Fast Data Transfers</h2>
+          <p class="large muted">
+            Experience the power of lightning-fast data transfers, a standout
+            feature of this revolutionary encryption solution.
+          </p>
+        </header>
+
+        <div id="grid">
+          <div>
+            <img src="../assets/icon-copy.svg" alt="Copy" />
+            <h3>Rapid File Transfers</h3>
+            <p>Effortlessly transfer large files in a fraction of the time.</p>
+          </div>
+          <div>
+            <img src="../assets/icon-clock.svg" alt="Clock" />
+            <h3>Real-Time Streaming</h3>
+            <p>
+              Get instant access to critical information without any lag or
+              delay.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="media">
+        <!-- i-frame -->
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/qthkkHPNAYQ?si=NxffS5NkLM8It2cF"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <!-- video-tag -->
+
+        <!-- <video
+          src="../assets/video-poster.jpg"
+          height="640"
+          width="320"
+          controls
+          poster="assets/gallery-1.jpg"
+        ></video> -->
+      </div>
+    </section>
+  </body>
+</html>
